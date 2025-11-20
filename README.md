@@ -8,7 +8,7 @@ The tasks are organized by week, and each task focuses on a specific programming
 - **Week 1:** Basic Python concepts and simple applications
 - **Week 2:** Intermediate Python exercises with loops, conditionals, and built-in functions
 - **Week 3:** Advanced Python exercises with generators, recursion, lambda, map/filter, and real-time data processing
-
+- **Week 4 :** Advanced OOP, Class Methods, File Operations, Random, and System Simulations
 ## Week 1 Tasks
 
 1. **Student Grade Tracking System** – Store student info, calculate averages, determine pass/fail.
@@ -38,12 +38,19 @@ The tasks are organized by week, and each task focuses on a specific programming
 5. **Four-Function Calculator** – Perform addition, subtraction, multiplication, division with user input, handle division by zero and invalid operations using lambda and try-except.
 6. **Name Formatter** – Convert a list of names to uppercase and prepend `"Sayın "` using lambda and map; input accepted as comma-separated names.
 
+## Week 4 Tasks
+1. **Bank Account System** – Create BankAccount class with __init__, __str__, __add__ methods, withdrawal/deposit functions, and transaction history reporting.
+2. **Student Grading System** – Student base class with Undergraduate and Graduate subclasses, grade management using Counter, and different average calculation methods.
+3. **File Manager** – Comprehensive file and folder operations manager with random file naming, regex search, folder scanning, and file counting using __len__.
+4. **E-Commerce System** – Product, Customer, and Order management system with stock control, cart management, price calculation with VAT, and order processing.
+5. **Quiz Application** – Timed quiz application with random question selection, time tracking, detailed reporting, and score calculation based on difficulty levels.
+6. **Employee Management System** – Advanced company personnel management system with inheritance for different employee types, salary raise calculations, leave calculations, and comparison operators.
 ## How to Run
 
 - Each task is independent and can be run in any Python environment (PyCharm, VS Code, etc.).
-- Navigate to the week folder (`Week_1/`, `Week_2/`, `Week_3/`) and run the Python file for each task.
+- Navigate to the week folder (`Week_1/`, `Week_2/`, `Week_3/`,`Week_4/`) and run the Python file for each task.
 
 ## Notes
 
 - This repository is a learning diary to track progress in Python.
-- Each task helps practice different concepts: loops, conditionals, lists, dictionaries, functions, input/output, built-in Python modules, recursion, generators, lambda, map/filter, and real-time data handling.
+- Each task helps practice different concepts: loops, conditionals, lists, dictionaries, functions, input/output, built-in Python modules, recursion, generators, lambda, map/filter, real-time data handling, OOP, classes, inheritance, file operations, and advanced Python programming techniques.
