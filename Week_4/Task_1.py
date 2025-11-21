@@ -47,14 +47,32 @@ class BankaHesabi:
         for islem in self.islem_gecmisi:
             print(islem)
 
-# Test için
-# hesap1 = BankaHesabi("12345", 1000, "Vadesiz", datetime.now())
-# hesap2 = BankaHesabi("67890", 500, "Vadeli", datetime.now())
-# print(hesap1)
-# print(hesap2)
-# hesap1.para_yatir(500)
-# hesap1.para_cek(200)
-# hesap1.para_cek(2000)
-# hesap1.hesap_raporu()
-# toplam_bakiye = hesap1 + hesap2
-# print(f"Toplam bakiye: {toplam_bakiye} TL")
+def main():
+    print("=== Banka Hesap Sistemi Test ===")
+
+    # Hesap oluşturma
+    hesap1 = BankaHesabi("12345", 1000, "Vadesiz", datetime.now())
+    hesap2 = BankaHesabi("67890", 500, "Vadeli", datetime.now())
+
+    print("\n--- Hesap Bilgileri ---")
+    print(hesap1)
+    print(hesap2)
+
+    # İşlemler
+    print("\n--- İşlemler ---")
+    hesap1.para_yatir(500)
+    hesap1.para_cek(200)
+    hesap1.para_cek(2000)  # yetersiz bakiye örneği
+
+    # Rapor
+    print("\n--- Hesap 1 Raporu ---")
+    hesap1.hesap_raporu()
+
+    # __add__ test
+    toplam_bakiye = hesap1 + hesap2
+    print(f"\nToplam bakiye: {toplam_bakiye} TL")
+
+
+if __name__ == "__main__":
+    main()
+
