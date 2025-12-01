@@ -9,6 +9,7 @@ The tasks are organized by week, and each task focuses on a specific programming
 - **Week 2:** Intermediate Python exercises with loops, conditionals, and built-in functions
 - **Week 3:** Advanced Python exercises with generators, recursion, lambda, map/filter, and real-time data processing
 - **Week 4 :** Advanced OOP, Class Methods, File Operations, Random, and System Simulations
+- **Week 5:** Computer Vision, Image Processing, Video Processing, Motion Tracking, Face Detection, and Augmented Reality with OpenCV 
 ## Week 1 Tasks
 
 1. **Student Grade Tracking System** – Store student info, calculate averages, determine pass/fail.
@@ -45,12 +46,20 @@ The tasks are organized by week, and each task focuses on a specific programming
 4. **E-Commerce System** – Product, Customer, and Order management system with stock control, cart management, price calculation with VAT, and order processing.
 5. **Quiz Application** – Timed quiz application with random question selection, time tracking, detailed reporting, and score calculation based on difficulty levels.
 6. **Employee Management System** – Advanced company personnel management system with inheritance for different employee types, salary raise calculations, leave calculations, and comparison operators.
+
+## Week 5 Tasks
+1. **Image Transformations** – Apply resizing, rotation, cropping, and flipping operations using OpenCV.
+2. **Edge Detection** – Detect edges in images using Canny and Sobel operators.
+3. **Color Detection** – Use HSV masking to isolate and track specific colors.
+4. **Face Detection** – Detect faces in images or webcam feed using Haar Cascades.
+5. **Shape Detection** – Find contours and classify shapes (triangle, square, circle, etc.).
+6. **Augmented Reality Marker System** – Detect markers and overlay virtual images using perspective transform.
 ## How to Run
 
 - Each task is independent and can be run in any Python environment (PyCharm, VS Code, etc.).
-- Navigate to the week folder (`Week_1/`, `Week_2/`, `Week_3/`,`Week_4/`) and run the Python file for each task.
+- Navigate to the week folder (`Week_1/`,`Week_2/`,`Week_3/`,`Week_4/`,`Week_5/`) and run the Python file for each task.
 
 ## Notes
 
 - This repository is a learning diary to track progress in Python.
-- Each task helps practice different concepts: loops, conditionals, lists, dictionaries, functions, input/output, built-in Python modules, recursion, generators, lambda, map/filter, real-time data handling, OOP, classes, inheritance, file operations, and advanced Python programming techniques.
+- Each task helps practice different concepts: loops, conditionals, lists, dictionaries, functions, input/output, built-in Python modules, recursion, generators, lambda, map/filter, real-time data handling, OOP, classes, inheritance, file operations, computer vision, and augmented reality.
